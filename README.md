@@ -45,7 +45,7 @@ Quick start:
 ```bash
 mkdir dotfiles && cd dotfiles
 git init
-git submodule add https://github.com/deadc0de6/dotdrop.git
+git submodule add https://github.com/patchedsoul/dotdrop.git
 pip3 install -r dotdrop/requirements.txt --user
 ./dotdrop/bootstrap.sh
 ./dotdrop.sh --help
@@ -99,7 +99,7 @@ $ mkdir dotfiles; cd dotfiles
 $ git init
 
 ## install dotdrop as a submodule
-$ git submodule add https://github.com/deadc0de6/dotdrop.git
+$ git submodule add https://github.com/patchedsoul/dotdrop.git
 $ pip3 install -r dotdrop/requirements.txt --user
 $ ./dotdrop/bootstrap.sh
 
@@ -128,7 +128,7 @@ For bash and zsh completion scripts see [the related doc](completion/README.md).
 
 Create a new repository to store your dotfiles with dotdrop. *Init* or *clone*
 that new repository and
-[install dotdrop](https://github.com/deadc0de6/dotdrop/wiki/installation#as-a-submodule).
+[install dotdrop](https://github.com/patchedsoul/dotdrop/wiki/installation#as-a-submodule).
 
 Then import any dotfiles (files or directories) you want to manage with dotdrop.
 You can either use the default profile (which resolves to the *hostname* of the host
@@ -261,17 +261,17 @@ That's it, a single repository with all your dotfiles for your different hosts.
 
 You can then
 
-* [create actions](https://github.com/deadc0de6/dotdrop/wiki/usage-actions)
-* [use transformations](https://github.com/deadc0de6/dotdrop/wiki/usage-transformations)
-* [use variables](https://github.com/deadc0de6/dotdrop/wiki/config-variables)
-* [symlink dotfiles](https://github.com/deadc0de6/dotdrop/wiki/symlinked-dotfiles)
-* [and more](https://github.com/deadc0de6/dotdrop/wiki)
+* [create actions](https://github.com/patchedsoul/dotdrop/wiki/usage-actions)
+* [use transformations](https://github.com/patchedsoul/dotdrop/wiki/usage-transformations)
+* [use variables](https://github.com/patchedsoul/dotdrop/wiki/config-variables)
+* [symlink dotfiles](https://github.com/patchedsoul/dotdrop/wiki/symlinked-dotfiles)
+* [and more](https://github.com/patchedsoul/dotdrop/wiki)
 
-For more options see `dotdrop --help` and the [wiki](https://github.com/deadc0de6/dotdrop/wiki).
+For more options see `dotdrop --help` and the [wiki](https://github.com/patchedsoul/dotdrop/wiki).
 
 # Documentation
 
-Dotdrop's documentation is hosted on [its wiki](https://github.com/deadc0de6/dotdrop/wiki).
+Dotdrop's documentation is hosted on [its wiki](https://github.com/patchedsoul/dotdrop/wiki).
 
 # Thank you
 
@@ -284,7 +284,7 @@ If you are having trouble installing or using dotdrop,
 
 If you want to contribute, feel free to do a PR (please follow PEP8).
 Have a look at the
-[contribution guidelines](https://github.com/deadc0de6/dotdrop/blob/master/CONTRIBUTING.md)
+[contribution guidelines](https://github.com/patchedsoul/dotdrop/blob/master/CONTRIBUTING.md)
 
 # License
 
