@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# author: deadc0de6 (https://github.com/deadc0de6)
+# author: deadc0de6 (https://github.com/patchedsoul)
 # Copyright (c) 2017, deadc0de6
 
 # check for readlink/realpath presence
-# https://github.com/deadc0de6/dotdrop/issues/6
+# https://github.com/patchedsoul/dotdrop/issues/6
 rl="readlink -f"
 
 if ! ${rl} "${0}" >/dev/null 2>&1; then

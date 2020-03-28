@@ -1,15 +1,15 @@
 # DOTDROP
 
-[![Build Status](https://travis-ci.org/deadc0de6/dotdrop.svg?branch=master)](https://travis-ci.org/deadc0de6/dotdrop)
+[![Build Status](https://travis-ci.org/patchedsoul/dotdrop.svg?branch=master)](https://travis-ci.org/patchedsoul/dotdrop)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
-[![Coverage Status](https://coveralls.io/repos/github/deadc0de6/dotdrop/badge.svg?branch=master)](https://coveralls.io/github/deadc0de6/dotdrop?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/patchedsoul/dotdrop/badge.svg?branch=master)](https://coveralls.io/github/patchedsoul/dotdrop?branch=master)
 [![PyPI version](https://badge.fury.io/py/dotdrop.svg)](https://badge.fury.io/py/dotdrop)
 [![AUR](https://img.shields.io/aur/version/dotdrop.svg)](https://aur.archlinux.org/packages/dotdrop)
 [![Python](https://img.shields.io/pypi/pyversions/dotdrop.svg)](https://pypi.python.org/pypi/dotdrop)
 
 *Save your dotfiles once, deploy them everywhere*
 
-[Dotdrop](https://github.com/deadc0de6/dotdrop) makes the management of dotfiles between different hosts easy.
+[Dotdrop](https://github.com/patchedsoul/dotdrop) makes the management of dotfiles between different hosts easy.
 It allows to store your dotfiles on git and automagically deploy
 different versions of the same file on different setups.
 
@@ -37,8 +37,8 @@ Features:
 * Provide solutions for handling dotfiles containing sensitive information
 
 Check also the [blog post](https://deadc0de.re/articles/dotfiles.html),
-the [example](#getting-started), the [wiki](https://github.com/deadc0de6/dotdrop/wiki) or
-how [people are using dotdrop](https://github.com/deadc0de6/dotdrop/wiki/people-using-dotdrop)
+the [example](#getting-started), the [wiki](https://github.com/patchedsoul/dotdrop/wiki) or
+how [people are using dotdrop](https://github.com/patchedsoul/dotdrop/wiki/people-using-dotdrop)
 for more.
 
 Quick start:
@@ -51,7 +51,7 @@ pip3 install -r dotdrop/requirements.txt --user
 ./dotdrop.sh --help
 ```
 
-A mirror of this repository is available on gitlab under <https://gitlab.com/deadc0de6/dotdrop>.
+A mirror of this repository is available on gitlab under <https://gitlab.com/patchedsoul/dotdrop>.
 
 ## Why dotdrop ?
 
@@ -61,7 +61,7 @@ on different hosts. Moreover dotdrop allows to specify the
 set of dotfiles that need to be deployed on a specific profile.
 
 See the [example](#getting-started) for a concrete example on
-why [dotdrop](https://github.com/deadc0de6/dotdrop) rocks.
+why [dotdrop](https://github.com/patchedsoul/dotdrop) rocks.
 
 ---
 
@@ -81,7 +81,7 @@ you are cloning your dotfiles git tree from you'll have dotdrop shipped with it.
 
 Below instructions show how to install dotdrop as a submodule. For alternative
 installation instructions (with virtualenv, pypi, aur, snap, etc) see the
-[wiki installation page](https://github.com/deadc0de6/dotdrop/wiki/installation).
+[wiki installation page](https://github.com/patchedsoul/dotdrop/wiki/installation).
 
 Dotdrop is also available on
 * pypi: https://pypi.org/project/dotdrop/
@@ -176,7 +176,7 @@ profiles:
     - d_polybar
 ```
 For a description of the different fields and their use,
-see the [config doc](https://github.com/deadc0de6/dotdrop/wiki/config).
+see the [config doc](https://github.com/patchedsoul/dotdrop/wiki/config).
 
 Commit and push your changes.
 

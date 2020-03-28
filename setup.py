@@ -22,8 +22,8 @@ setup(
 
     description='Save your dotfiles once, deploy them everywhere',
     long_description=read_readme(readme),
-    url='https://github.com/deadc0de6/dotdrop',
-    download_url = 'https://github.com/deadc0de6/dotdrop/archive/v'+VERSION+'.tar.gz',
+    url='https://github.com/patchedsoul/dotdrop',
+    download_url = 'https://github.com/patchedsoul/dotdrop/archive/v'+VERSION+'.tar.gz',
 
     author='deadc0de6',
     author_email='deadc0de6@foo.bar',
